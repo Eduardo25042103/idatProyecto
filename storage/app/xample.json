@@ -1,0 +1,62 @@
+[
+    {
+        "dni": "11232178",
+        "nombre": "Juan",
+        "apellido": "Pérez",
+        "fecha_nacimiento": "1985-06-15",
+        "email": "juan@example.com",
+        "telefono": 123456789,
+        "direccion": "Calle 12, Ciudad A",
+        "preferencia_juego": "R001",
+        "fecha_creacion": "2024-03-28",
+        "fecha_modificacion": "2024-03-28"
+    },
+    {
+        "dni": "87654321",
+        "nombre": "Ana",
+        "apellido": "Gómez",
+        "fecha_nacimiento": "1992-11-23",
+        "email": "ana@example.com",
+        "telefono": 987654321,
+        "direccion": "Av. Central 456, Ciudad B",
+        "preferencia_juego": "R002",
+        "fecha_creacion": "2024-03-28",
+        "fecha_modificacion": "2024-03-28"
+    },
+    {
+        "dni": "56789012",
+        "nombre": "Carlos",
+        "apellido": "López",
+        "fecha_nacimiento": "1988-04-10",
+        "email": "carlos@example.com",
+        "telefono": 567890123,
+        "direccion": "Pje. Libertad 789, Ciudad C",
+        "preferencia_juego": "R003",
+        "fecha_creacion": "2024-03-28",
+        "fecha_modificacion": "2024-03-28"
+    },
+    {
+        "dni": "34567890",
+        "nombre": "María",
+        "apellido": "Rodríguez",
+        "fecha_nacimiento": "1995-09-05",
+        "email": "maria@example.com",
+        "telefono": 345678901,
+        "direccion": "Calle Mayor 321, Ciudad D",
+        "preferencia_juego": "R001",
+        "fecha_creacion": "2024-03-28",
+        "fecha_modificacion": "2024-03-28"
+    },
+    {
+        "dni": "78901234",
+        "nombre": "Luis",
+        "apellido": "Fernández",
+        "fecha_nacimiento": "1980-12-30",
+        "email": "luis@example.com",
+        "telefono": 789012345,
+        "direccion": "Carrera 50 #12-34, Ciudad E",
+        "preferencia_juego": "R009",
+        "fecha_creacion": "2024-03-28",
+        "fecha_modificacion": "2024-03-28"
+    }
+]
