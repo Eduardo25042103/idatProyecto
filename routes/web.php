@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\Backend\AdminController;
 use App\Http\Controllers\Backend\AdminProfileController;
+use App\Http\Controllers\ClienteController;
 use App\Http\Controllers\Backend\RrhhController;
 
 /*
@@ -17,6 +18,16 @@ use App\Http\Controllers\Backend\RrhhController;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
+
+
+// Ruta principal para mostrar la tabla de clientes
+Route::get('/', [ClienteController::class, 'index']);
+
+// Ruta para importar clientes desde JSON
+Route::get('/importar', [ClienteController::class, 'importar']);
+
+// Ruta API para obtener los clientes en JSON
+Route::get('/api', [ClienteController::class, 'api']);
 
 Route::get('/', function () {
     return view('welcome');
